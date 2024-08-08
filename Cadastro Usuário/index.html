@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Usuário</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+        <h1>BEM-VINDOS!</h1>
+        <div class="container border">
+        <form class="form-control">
+            <fieldset>
+                <h2><legend>CADASTRO DE USUÁRIO</legend></h2>
+                
+                <div class="row">
+
+                <div class="col-6">
+                <label class="form-label">Nome:</label>
+                <Input class="form-control" type="text" name="Nome" id="idNome"></Input>
+                </div>
+
+                <div class="col">
+                <label class="form-label">Sobrenome:</label>
+                <Input class="form-control" type="text" name="Sobrenome" id="idSobrenome"></Input>  
+                </div>
+
+                </div>
+                 
+              </fieldset>
+
+                <fieldset>
+                    <h3>DADOS PESSOAIS:</h3>
+                    <label class="form-label">CPF:</label>
+                    <Input class="form-control" type="number" name="CPF" id="idCPF"></Input>
+                    <br>
+                    <label>Estado:</label>
+                    <select class="form-select" aria-label="Default select example" name="Estado" id="idEstado">
+                        <option selected>Selecione:</option>
+                        <option value="1">AC</option>
+                        <option value="2">AL</option>
+                        <option value="3">AP</option>
+                        <option value="4">AM</option>
+                        <option value="5">BA</option>
+                        <option value="6">CE</option>
+                        <option value="7">ES</option>
+                        <option value="8">GO</option>
+                        <option value="9">MA</option>
+                        <option value="10">MT</option>
+                        <option value="11">MS</option>
+                        <option value="12">MG</option>
+
+                    </select>
+                    
+                    <div class="row">
+                    <div class="col-4">
+                    <label class="form-label">E-mail:</label>
+                    <Input class="form-control" type="email" name="Email" id="idMail"></Input>
+                    </div>
+
+                    <div class="col-4">
+                        <label class="form-label">Senha:</label>
+                        <Input class="form-control" type="password"></Input>
+                        </div>
+                        <div class="col-4">
+                        <label class="form-label">Confirme senha:</label>
+                        <Input class="form-control" type="password"></Input>
+                        </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                        <input class="cad" type="button" value="Cadastrar">
+                        <input class="res" type="reset" value="Limpar">
+                        </div>
+                    
+                </fieldset>
+                  
+                        
+
+                        
+
+       </form>
+    </div>
+       <script>
+        
+           function confirmacao() {
+            var nome= document.getElementById("idNome").value
+            var sobrenome= document.getElementById("idSobrenome").value;
+            alert(nome+", cadastro confirmado.");
+           }
+       </script>
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Usuário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <h1>BEM-VINDOS!</h1>
+        <form>
+            <fieldset>
+                <h2><legend>CADASTRO DE USUÁRIO</legend></h2>
+                <h3>INDENTIFIQUE-SE:</h3>
+                <label>Nome:</label>
+                <Input type="text"></Input>
+                <br>
+                <label>Sobrenome:</label>
+                <Input type="text"></Input>
+                <br> 
+              </fieldset>
+
+                <fieldset>
+                    <h3>DADOS PESSOAIS:</h3>
+                    <label>CPF:</label><Input type="number"></Input>
+                    <br>
+                    <label>Estado:</label>
+                    <Input type="text"></Input>
+                    <br>
+                    <label>E-mail:</label>
+                    <Input type="email"></Input>
+                    <br>
+                </fieldset>
+                
+                    <fieldset>  
+                        <label>Senha:</label>
+                        <Input type="text"></Input>
+                        <br>
+                        <label>Confirme senha:</label>
+                        <Input type="text"></Input>
+                        <br>
+                      </fieldset>
+                     <br>
+
+                        <input type="submit" value="Cadastrar">
+                        <input type="reset" value="Limpar">
+                         </fieldset>
+
+       </form>
+       <script>
+           function confirmacao() {
+            var nome= document.getElementById("idNome").value
+            var sobrenome= document.getElementById("idSobre").value
+             alert (nome+" "+sobrenome", Cadastro confirmado")
+           }
+       </script>
+</body>
+</html>

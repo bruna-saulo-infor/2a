@@ -1,0 +1,79 @@
+
+ /*Estilo*/
+*{
+    margin: 20px;
+    padding:0 ;
+    box-sizing: border-box;
+    background-color: #04427c;
+    font-family: 'Merriweather', serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+body{
+    background: color #ffffff;
+    height: 100vh;
+}
+.interface{
+    max-width: 1200px;
+    margin: 5 auto;
+}
+
+/*Cabeçalho*/
+
+header{
+    padding: 35px 2
+}
+
+header>.interface{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+header a{
+    color:#7d7d7d;
+    text-decoration: none;
+    
+}
+
+header a:hover{
+    color: #ffffff
+    
+}
+
+header nav ul{
+    list-style-type:none;
+}
+
+header nav ul li{
+
+ display:inline-block;
+ padding: 0 35px;
+}
+.logo, a, img{
+    width: 47%;
+}
+
+header .btn-contato button{
+padding: 5px 40px;
+font-size: 18px;
+font-weight:800 ;
+background-color: rgb(0, 0, 0);
+border-radius: 15px;
+border: solid 1px;
+border-radius: 25px;
+cursor: pointer;
+background: transparent;
+
+}
+header .btn-contato button:hover{
+
+box-shadow:0px 0px 8px #ffffff;
+
+}
+button:hover{
+    background-color: #ffffff;
+    transition: 0.5em;
+}
+

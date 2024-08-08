@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Oswald:wght@200;300;400;500;600;700&family=Poppins:wght@300;500&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #3fafb9;
+    color: white;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: brown;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: black;
+}
+
+.inicio {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    padding: 0 10%;
+}
+
+.conteudo {
+    max-width: 600px;
+}
+
+.conteudo h1 {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.conteudo h3 {
+    font-size: 32px;
+    font-weight: 700;
+    color: black;
+}
+
+.conteudo p {
+    font-size: 20px;
+    margin: 20px 0 40px;
+}
+
+.harry{
+    max-width: 400px;
+    border-radius: 50%;
+}
+
+.narnia{
+    max-width: 400px;
+    border-radius: 50%;
+    left: 500px;
+    position: fixed;
+}
+
+.mpb{
+    max-width: 400px;
+    border-radius: 50%;
+    left: 815px;
+    position: fixed;
+}
+
+.livros{
+    top: 230px;
+    border-radius: 50%;
+    left: 815px;
+    position: fixed;
+
+}
+
+.foto{
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+    border-radius: 50%;
+    max-width: 850px;
+}
+
+.sobre {
+    max-width: 600px;
+}
+
+.sobre h1 {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: brown;
+}
+
+.sobre h3 {
+    font-size: 32px;
+    font-weight: 700;
+    color: black;
+}
+
+.sobre p {
+    font-size: 20px;
+    margin: 20px 0 40px;
+}
+
+.contato a {
+    font-size: 30px;
+    color: rgb(123, 0, 0);
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 0px;
+    transition: .3s
+}
+
+.contato a:hover,
+.contato a.active {
+    color: rgb(255, 255, 255);
+}
+
+.contato {
+    max-width: 600px;
+}
+
+.contato h1 {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: rgb(255, 255, 255);
+}
+
+.contato h3 {
+    font-size: 32px;
+    font-weight: 700;
+    color: black;
+}
+
+.contato p {
+    font-size: 20px;
+    margin: 20px 0 40px;
+}
+
+.insta {
+    left: 1120px;
+    position: fixed;
+}
+
+.teste {
+    top: 40%;
+    left: 1300px;
+    position: fixed;
+    width: 400px;
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-50px);
+    }
+}

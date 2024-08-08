@@ -1,0 +1,42 @@
+.yea{
+     width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: bisque;   
+}
+
+.omg {
+    color: rgb(0, 0, 0);
+}
+
+.form-label {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+.sub {
+    background-color: black;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.som {
+    background-color: black;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.div {
+    background-color: black;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.mul {
+    background-color: black;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
